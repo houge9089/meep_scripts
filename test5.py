@@ -9,6 +9,7 @@ frequency=ff/cc
 f150=150*(1e-6)/cc
 fmin=frequency-f150
 fmax=frequency+f150
+resolution=10
 
 def fun(t):
     return math.cos(2*math.pi*frequency*t)
